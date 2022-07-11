@@ -1,0 +1,21 @@
+{
+    "name": "activebox",
+    "source": "activebox.html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "^2.6.2",
+        "sass": "^1.53.0"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.6.2"
+    }
+}

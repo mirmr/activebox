@@ -1,0 +1,119 @@
+.footer__information {
+    background-color: #353C65;
+    padding: 71px 0;
+}
+
+.information__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 20px;
+}
+
+.information__block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.information__item {
+    text-align: center;
+    max-width: 370px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.information__item:last-of-type {
+    margin: 0;
+}
+
+.information__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    align-items: flex-start;
+    color: #fff;
+    margin-bottom: 29px;
+}
+
+.information__title--link {
+    margin-bottom: 49px;
+}
+
+.information__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.information__list {
+    display: flex;
+    justify-content: center;
+}
+
+.list__cell {
+    width: 39px;
+    height: 39px;
+    margin-right: 27px;
+}
+
+.list__link--facebook {
+    background-image: url(../assets/svg/facebook_icon.svg);
+}
+
+.list__link--twitter {
+    background-image: url(../assets/svg/twitter_icon.svg);
+}
+
+.list__link--linkedin {
+    background-image: url(../assets/svg/linkedin_icon.svg);
+}
+
+.list__cell:last-of-type {
+    margin: 0;
+}
+
+.list__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .2s linear;
+}
+
+.list__link:hover {
+    transform: scale(1.15);
+    box-shadow: 0 3px 3px rgb(0, 0, 0.7);
+}
+
+.footer__copyright {
+    background-color: #2C3154;
+    padding: 24px 0;
+}
+
+.copyright__container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 20px;
+}
+
+.copyright__block {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #808080;
+    text-align: center;
+}
+
+.copyright__block span {
+    color: #FFFFFF;
+}
