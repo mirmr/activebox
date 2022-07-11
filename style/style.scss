@@ -204,33 +204,3 @@
         line-height: 16px;
     }
 }
-
-@media(max-width: 768px) {
-    .menu__list {
-        display: none;
-    }
-    .banner__section {
-        padding-bottom: 52px;
-    }
-    .logo {
-        max-width: 130px;
-    }
-    .banner__menu {
-        margin-bottom: 50px;
-    }
-    .block__title {
-        font-size: 36px;
-        line-height: 42px;
-        margin-bottom: 33px;
-        max-width: 280px;
-    }
-    .block__subtitle {
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 51px;
-        max-width: 280px;
-    }
-    .block__button {
-        max-width: 280px;
-    }
-}
